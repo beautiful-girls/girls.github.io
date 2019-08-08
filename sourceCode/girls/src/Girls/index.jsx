@@ -10,6 +10,8 @@ export default class Home extends Component {
         return (
             <BrowserRouter>
             <Switch>
+                <Route path='/login' component={Login}/>
+                <Route path='/registe' component={Registe}/>
                 {/* 写路由 */}
                 <Redirect exact from='/' to='/login'></Redirect>
             </Switch>
