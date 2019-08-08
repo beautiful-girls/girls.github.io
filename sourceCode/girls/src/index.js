@@ -1,15 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Index from './8.7/component/index'
-import { BrowserRouter } from 'react-router-dom'
+import 'antd-mobile/dist/antd-mobile.css';
+import Html from './Girls/index'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
-    <BrowserRouter>
-        <Index/>
-    </BrowserRouter>
-, document.getElementById('root'));
+ReactDOM.render(<Html/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

@@ -14,11 +14,29 @@ code {
 .flex{
   display: flex;
 }
-.item{
+.grow{
   flex-grow: 2; /* default 0 */
+}
+.grow3{
+  flex-grow: 3; /* default 0 */
+}
+.grow4{
+  flex-grow: 4; /* default 0 */
 }
 .ul{
   list-style: none;
   margin: 0px;
   padding: 0px;
+}
+.color{
+  /* 蓝色深背景 */
+  color: rgb(0,132,255);
+  /* 灰色评论图标颜色 */
+  color: rgb(133,144,166);
+  /* 蓝色深颜色字体 */
+  color: rgb(23,81,153);
+  /* 蓝色浅背景颜色 */
+  color: rgb(229,242,255);
+  /* 背景色 */
+  color: rgb(241,241,241)
 }
